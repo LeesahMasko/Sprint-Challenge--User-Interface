@@ -70,18 +70,24 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+    width:900px;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 48%;
-    padding: 0 1%;
+    /*padding: 0 1%;*/
     padding-bottom: 20px;  
 }
 
