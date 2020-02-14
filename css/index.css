@@ -70,9 +70,13 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-header{
-    width:900px;
+.HeaderImg{
+    display: flex;
+    /*margin: 0 auto;*/
 }
+ .Skyline-img{
+        max-width: 100%;
+    }
 
 .top-content {
     display: flex;
@@ -197,8 +201,11 @@ header nav div{
     color:black;
 }
 
-.Skyline-img{
-    max-width: 100%;
+.jumbo-about-img{
+    width: 100%;
+}
+.Jumbo-img{
+    width: 100%;
 }
 .aboutLambda{
     display: flex;
